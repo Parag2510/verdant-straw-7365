@@ -1,0 +1,165 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poopins Sans, sans-serif;
+}
+
+/* ******************************  for signup page   ************************************************* */
+#kapil {
+  margin: auto;
+  width: 25%;
+  margin-top: 100px;
+}
+
+#kapil>.may>h1 {
+  text-align: center;
+  font: 30px;
+  font-family: poppins;
+  color: #161616;
+}
+
+#kapil>.mays {
+  width: 100%;
+  margin: auto;
+}
+
+#kapil>.mays>a {
+  display: flex;
+  height: 40px;
+  border-radius: 4px;
+  border-color: #2d5073;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "merwheather Sans", sans-serif;
+  background-color: #3d5998;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#kapil>.mays>a>i {
+  font-size: 27px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid transparent;
+  padding: 5px 15px;
+}
+
+#kapil>.mays>a>span {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+#kapil>.mays:nth-child(3)>a {
+  background-color: #dd4b39;
+}
+
+#kapil>.mays:nth-child(3)>a>i {
+  padding: 10px;
+}
+
+#mayp {
+  margin: 10px 0px;
+}
+
+/* ********************************* form tag **********************************/
+#mayp>#gform>input {
+  height: 40px;
+  width: 99%;
+  border: 0.1px solid lightgray;
+}
+
+#mayp>#gform>p {
+  color: #7a7a7a;
+  font-size: 13px;
+  font-family: "Poppins";
+  margin: 0 0 5px;
+  padding: 0 0 7px;
+  margin: 10px 0px;
+}
+
+#mayp>#gform>input:focus {
+  outline-color: #e5b95f;
+}
+
+#mayp>#gform>p>span {
+  color: red;
+}
+
+#mayp>#gform>input:last-child {
+  background-color: #e5b95f;
+  font-size: 1.1em;
+  height: 40px;
+  border: none;
+  width: 100%;
+}
+
+.may {
+  width: 1px solid pink;
+  margin: auto;
+}
+
+/* ********************************** hr line ********************** */
+.ram {
+  display: grid;
+  margin: auto;
+  margin: 20px 0px 20px 0px;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "a c b";
+  font-family: poppins;
+}
+
+.ram>hr:first-child {
+  grid-area: a;
+  height: 1px;
+  width: 130%;
+}
+
+.ram>hr:last-child {
+  grid-area: b;
+  height: 1px;
+}
+
+.ram>p {
+  grid-area: c;
+  margin-left: 50%;
+  width: 70%;
+  margin-top: -5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.son>a>button {
+  width: 100%;
+  background-color: #e5b95f;
+  height: 40px;
+  font-size: 1.1em;
+  border: none;
+}
+
+/* ******************************* hover ************************** */
+.son>a>button:hover {
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+#mayp>#gform>input:last-child:hover {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#kapil>.mays>a:hover {
+  background-color: transparent whitesmoke;
+}
+
+/* ********************************************************* */
