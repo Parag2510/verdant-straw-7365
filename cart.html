@@ -10,9 +10,23 @@
   <body>
     <img id="cart_logo" src="/images/cart-png.png" alt="cart_logo" />
 
+    <!--################################### cart page ###################################-->
     <div id="mycart" class="cart">
       <a href="javascript:void(0)" class="closebtn" id="closecart">&times;</a>
-
+      <div class="cart_title">
+        <p>My Cart</p>
+        <i class="fa-solid fa-x" id="closeicon"></i>
+      </div>
+      <div class="display_cart_product">
+        <div class="img_name"></div>
+      </div>
+      <div class="total_in">
+        <h2>Total:</h2>
+        <div>
+          <h2>Rs:</h2>
+          <h2 id="total_cart_price"></h2>
+        </div>
+      </div>
       <button>View Cart</button>
       <button>CHECKOUT</button>
     </div>
