@@ -25,8 +25,8 @@ function navbar() {
            <div class="dropdown_menu">
                <a href="">Languages: En</a>
                <a href="">Checkout</a>
-               <a href="login.html">Sign In</a>
-               <a href="creat.html">Create an Account</a>
+               <a href="">Sign In</a>
+               <a href="">Create an Account</a>
            </div>
 
        </div>
