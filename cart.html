@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="/styles/cart.css" />
   </head>
   <body>
-    <img id="cart_logo" src="/images/cart-png.png" alt="cart_logo" />
-
+    <div id="cart_nav"></div>
     <!--################################### cart page ###################################-->
     <div id="mycart" class="cart">
-      <a href="javascript:void(0)" class="closebtn" id="closecart">&times;</a>
+      <!-- <a href="javascript:void(0)" class="closebtn" id="closecart">&times;</a>
       <div class="cart_title">
         <p>My Cart</p>
         <i class="fa-solid fa-x" id="closeicon"></i>
@@ -28,7 +27,36 @@
         </div>
       </div>
       <button>View Cart</button>
-      <button>CHECKOUT</button>
+      <button>CHECKOUT</button> -->
+      <h1>My Cart</h1>
+      <div id="cart_parent_box">
+        <div id="cart_dis">
+          <div id="entity">
+            <h3>PRODUCT</h3>
+            <h3 id="qty">QTY</h3>
+            <h3>PRICE</h3>
+          </div>
+          <hr />
+          <div id="value_row">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/05Women_sPage-Skincare-Reveal-2_compact.jpg?v=1662728365"
+              alt="product_img"
+            />
+            <p>The Grand Finale FabBag</p>
+            <input type="text" />
+            <span id="total_price">000</span>
+            <i></i>
+          </div>
+          <hr />
+        </div>
+
+        <div id="subtotal">
+          <p>TOTAL PRICE</p>
+          <span>Rs.</span><br />
+          <button id="up_cart">UPDATE CART</button><br />
+          <button id="chout">CHECKOUT</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
