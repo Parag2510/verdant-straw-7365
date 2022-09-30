@@ -17,13 +17,14 @@
 #first {
     padding: 10px 20px;
     height: 100%;
-    width: 200px;
+    width: 300px;
     text-align: center;
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #e5b95f;
     font-size: 21px;
     font-weight: bold;
-    margin-top: 60px;
 }
 #logo {
     height: 100%;
