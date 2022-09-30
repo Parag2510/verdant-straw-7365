@@ -21,9 +21,9 @@
     text-align: center;
     margin-top: 15px;
     color: #e5b95f;
-    font-size: 21px;
+    font-size: 26px;
     font-weight: bold;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 #logo {
     height: 100%;
@@ -57,6 +57,7 @@
     margin-left: 6px;
     margin-top: -15px;
     cursor: pointer;
+    margin-top: -37px;
 }
 .add_to_cart {
     position: fixed;
@@ -225,3 +226,71 @@
 }
 
 /* ***********************search*************** */
+
+.search_pr {
+position: fixed;
+top: -100%;
+left: 0;
+width: 100%;
+height: 320px;
+background-color: white;
+transition: all 0.6s ease-in-out;
+z-index: 20;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search_pr.open {
+top: 0;
+
+}
+
+#ap_search_of {
+width: 95%;
+color: black;
+background: none;
+border: none;
+border-bottom: 2px solid #ddd;
+font-weight: 700;
+padding: 10px 20px;
+height: auto;
+text-transform: lowercase;
+font-size: 36px;
+outline: none;
+}
+
+#ap_search_of+i {
+font-size: 30px;
+}
+
+#ap_search_of::placeholder {
+color: black;
+}
+
+#idont_closs {
+display: block;
+margin: 20px 60px;
+text-align: right;
+font-size: 20px;
+cursor: pointer;
+}
+
+.search_pr>p {
+margin: 20px 30px;
+font-size: 12px;
+}
+
+i {
+cursor: pointer;
+}
+.card{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px -4px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+.card:hover{
+box-shadow: 0px 0px 51px -36px rgba(0,0,0,1);
+}
+p{
+text-align: center;
+}

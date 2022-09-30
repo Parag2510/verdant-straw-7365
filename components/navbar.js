@@ -25,8 +25,8 @@ function navbar() {
            <div class="dropdown_menu">
                <a href="">Languages: En</a>
                <a href="">Checkout</a>
-               <a href="">Sign In</a>
-               <a href="">Create an Account</a>
+               <a href="login.html">Sign In</a>
+               <a href="creat.html">Create an Account</a>
            </div>
 
        </div>
@@ -60,7 +60,15 @@ function navbar() {
    <button>view cart</button>
    <button>checkout</button>
 
-</div>`
+</div>
+<div class="search_pr">
+<p>WHAT ARE YOU LOOKING FOR?</p>
+<input type="search" id="ap_search_of" placeholder="Search product">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+`
 }
 
+
+  
 export default navbar;
