@@ -60,7 +60,15 @@ function navbar() {
    <button>view cart</button>
    <button>checkout</button>
 
-</div>`
+</div>
+<div class="search_pr">
+<p>WHAT ARE YOU LOOKING FOR?</p>
+<input type="search" id="ap_search_of" placeholder="Search product">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+`
 }
 
+
+  
 export default navbar;
