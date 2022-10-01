@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAB-BAG|Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+  
+</head>
+<body>
+    <div id="display">
+        <div id="display_one">
+            <div id="display_one_img">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-FINAL.png?10651"/>
+            </div>
+            <div id="button_div">
+            <button>Cart</button>
+            <button>Information</button>
+            <button>Shipping</button>
+            <button>Payment</button>
+        </div>
+        <div id="form_div">
+            <div style="border:1px solid rgb(201, 201, 201);border-radius: 4px;" id="form_div_div">
+                <label class="ship">Contact:-</label>
+                <label id="shipu" style="color:rgb(39, 38, 38)" class="ship"></label>
+            <hr>
+            <label class="ship">Ship To:-</label>
+            <label id="ship" style="color:rgb(39, 38, 38)" class="ship"></label>
+            </div>
+            <p style="margin-top:50px;margin-left:20px;font-size: 22px;font-family: sans-serif;color:rgb(114, 110, 110)">Shipping Method</p>
+            <div style="border:1px solid rgb(114, 110, 110);border-radius: 4px;" id="method">
+                <input id="extra_charge" value=false type="checkbox">
+                <label style="font-family:sans-serif;color:rgb(114, 110, 110)">Free Standard Shipping(Debit Card/Credit Card/Net Banking/PayTM)Free
+                </label>
+              
+                <hr style="width:100%">
+                <input id="free" value=false type="checkbox">
+                <label style="font-family:sans-serif;color:rgb(114, 110, 110)">Cash on Delivery (Rs. 100/- Convenience Charge)
+                    This shipping option is eligible for Cash on Delivery.₹100.00</label>
+            </div>
+        </div>
+        <div id="return">
+            <button><a href="checkout.html">Return to cart</a></button>
+            <button id="button2"><a href="final.html">Continue to Shipping</a></button>
+        </div>
+        <hr style="margin-top:30px">
+        <button class="last_button">Refund policy</button>
+        <button class="last_button">Privacy policy</button>
+        <button class="last_button">Terms of service</button>
+        </div>
+        <div id="display_two">
+            <div id="display_two_one">
+                <div id="dis_img">
+                    <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/05Women_sPage-Skincare-Reveal-2_small.jpg?v=1662728365"/>
+                </div>
+                <div>
+                    <label style="font-family: sans-serif;font-size: 16px;">The Grand Finale September</label><br>
+                    <label style="font-family: sans-serif;font-size: 16px;">Fab Bag</label><br>
+                    <label style="font-family: sans-serif;font-size: 16px;">1 Month</label>
+                </div>
+                <div>
+                    <p>₹599.00</p>
+                </div>
+            </div>
+            <hr>
+            <input id="dis_in" placeholder="Discount Code" type="text">
+            <button id="app_bu">Apply</button>
+            <hr>
+            <label class="ship">Subtotal</label>
+            <label class="shipped">₹599.00</label><br>
+            <br>
+            <label class="ship">Shipping</label>
+            <label id="status" class="shipped">FREE</label>
+            <hr>
+            <label class="ship">Total</label>
+            <label style="font-size:22px" class="shipped">INR ₹599.00</label>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="payment.js"></script>
+
