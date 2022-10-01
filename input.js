@@ -55,7 +55,6 @@ showgallery(galleryarray);
 
 // create function to show card
 
-
 function showgallery(curarra){
    document.getElementById("card").innerText = "";
    for(var i=0;i<curarra.length;i++){
@@ -70,7 +69,7 @@ function showgallery(curarra){
           <button class="btn btn-primary w-100 mx-auto">Add To Cart</button>
        
           </div>
-          </div>
+        </div>
        `
    }
 

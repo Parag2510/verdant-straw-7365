@@ -9,22 +9,24 @@
     <script src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script> 
     <script src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/223e3a40df.js" crossorigin="anonymous"></script>
-    
-    <title>navbar</title>
+    <title>Document</title>
 </head>
 <body>
-      <div id="mynavbar"></div>
-      <!-- *******************search******************* -->
-
-      
+    <div id="mynavbar"></div>
+<input type="text" class="bag" id="myinput" placeholder="Live searching">
+<div class="container mb-5">
+    <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found </h3>
+    <div class="row mt-3" id="card"></div>
+</div> 
 </body>
 </html>
 <script type="module">
- import navbar from "./components/navbar.js";
- let container=document.getElementById("mynavbar") ;
- container.innerHTML=navbar();
- console.log(container)
+    import navbar from "./components/navbar.js";
+    let container=document.getElementById("mynavbar") ;
+    container.innerHTML=navbar();
+    console.log(container)
+   
+   </script>
 
-</script>
-<script src="./search.js" type="module"></script>
+<script src="./search.js"></script>
 <script src="./input.js"></script>

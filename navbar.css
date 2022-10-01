@@ -13,6 +13,7 @@
     position:fixed;
     z-index:10;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: -8px;
 }
 #first {
     padding: 10px 20px;
@@ -70,7 +71,7 @@
     transition: all 0.6s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.su_add_to_cart.active {
+.add_to_cart.active {
     right: 0;
 }
 .add_to_cart_tital {
@@ -114,7 +115,8 @@
 }
 .dropdown_menu a {
     color:black;
-    padding: 15px 20px;
+    padding: 15px 15px;
+    margin-right: 30%;
     text-decoration: none;
    border-bottom: 1px solid #ddd;
    display: block;
@@ -226,61 +228,19 @@
 }
 
 /* ***********************search*************** */
-
-.search_pr {
-position: fixed;
-top: -100%;
-left: 0;
-width: 100%;
-height: 320px;
-background-color: white;
-transition: all 0.6s ease-in-out;
-z-index: 20;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.search_pr.open {
-top: 0;
-
-}
-
-#ap_search_of {
-width: 95%;
-color: black;
-background: none;
-border: none;
-border-bottom: 2px solid #ddd;
-font-weight: 700;
-padding: 10px 20px;
-height: auto;
-text-transform: lowercase;
-font-size: 36px;
-outline: none;
-}
-
-#ap_search_of+i {
-font-size: 30px;
-}
-
-#ap_search_of::placeholder {
-color: black;
-}
-
-#idont_closs {
-display: block;
-margin: 20px 60px;
-text-align: right;
-font-size: 20px;
-cursor: pointer;
-}
-
-.search_pr>p {
-margin: 20px 30px;
-font-size: 12px;
+#search{
+ color: #e5b95f;
 }
 
 i {
 cursor: pointer;
+}
+#myinput{
+    width:30%;  
+}
+.bag{
+    margin-left: 35%;
+    margin-top:100px;
 }
 .card{
     transition: all 0.5s ease-in-out;
