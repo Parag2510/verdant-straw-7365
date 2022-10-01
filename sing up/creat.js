@@ -1,6 +1,4 @@
-let nav=document.getElementById("navbar")
-import navbar from "../components/navbar.js";
-container.innerHTML=navbar();
+
 
 let form= document.querySelector('#gform');
 form.addEventListener("submit",information);
