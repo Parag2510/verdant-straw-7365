@@ -103,7 +103,7 @@ body {
 #mycart {
   width: 80%;
   margin: auto;
-  margin-top: 200px;
+  padding-top: 200px;
   /* border: 1px solid black; */
 }
 #cart_dis > div {

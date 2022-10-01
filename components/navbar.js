@@ -1,5 +1,5 @@
 function navbar() {
-   return `<div id="Navbar">
+  return `<div id="Navbar">
 
    <div id="first">
    <a href=""> <p style="color:#e5b95f ;">SUBSCRIBE NOW</p></a>
@@ -60,7 +60,7 @@ function navbar() {
    <button>view cart</button>
    <button>checkout</button>
 
-</div>`
+</div>`;
 }
 
 export default navbar;
