@@ -1,5 +1,5 @@
 
- import footer from './components/FOOTER.js';
+ import footer from './Footer/FOOTER.js';
  console.log(footer);
  let footer_div=document.getElementById('foot');
  footer_div.innerHTML=footer()
