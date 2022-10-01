@@ -5,85 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
-    <scrip src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/223e3a40df.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <script src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/bfb1c60c0a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/223e3a40df.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <style>
-        .search_pr {
-    position: fixed;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 320px;
-    background-color: white;
-    transition: all 0.6s ease-in-out;
-    z-index: 20;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.search_pr.open {
-    top: 0;
-
-}
-
-#ap_search_of {
-    width: 95%;
-    color: black;
-    background: none;
-    border: none;
-    border-bottom: 2px solid #ddd;
-    font-weight: 700;
-    padding: 10px 20px;
-    height: auto;
-    text-transform: lowercase;
-    font-size: 36px;
-    outline: none;
-}
-
-#ap_search_of+i {
-    font-size: 30px;
-}
-
-#ap_search_of::placeholder {
-    color: black;
-}
-
-#idont_closs {
-    display: block;
-    margin: 20px 60px;
-    text-align: right;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.search_pr>p {
-    margin: 20px 30px;
-    font-size: 12px;
-}
-
-i {
-    cursor: pointer;
-}
-    </style>
 </head>
 <body>
     <div id="mynavbar"></div>
-    
-    <div class="search_pr">
-        <i class="fa-solid fa-x" id="idont_closs"></i>
-        <p>WHAT ARE YOU LOOKING FOR?</p>
-        <input type="search" id="ap_search_of" placeholder="Search product">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
-
+<input type="text" class="bag" id="myinput" placeholder="Live searching">
+<div class="container mb-5">
+    <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found </h3>
+    <div class="row mt-3" id="card"></div>
+</div> 
 </body>
 </html>
-<script src="./search.js"></script>
-
 <script type="module">
     import navbar from "./components/navbar.js";
     let container=document.getElementById("mynavbar") ;
     container.innerHTML=navbar();
     console.log(container)
+   
    </script>
+
+<script src="./search.js"></script>
+<script src="./input.js"></script>

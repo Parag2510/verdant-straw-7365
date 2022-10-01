@@ -2,7 +2,7 @@ function navbar() {
   return `<div id="Navbar">
 
    <div id="first">
-   <a href=""> <p style="color:#e5b95f ;">SUBSCRIBE NOW</p></a>
+   <a href=""> <p style="color:#e5b95f ;">SUBSCRIBE</p></a>
    </div>
 
    <div id="logo">
@@ -12,7 +12,7 @@ function navbar() {
 
    <div id="tools">
        <div>
-           <i class="fa-solid fa-magnifying-glass" id="search"></i>
+       <a href="search.html"><i class="fa-solid fa-magnifying-glass" id="search"></i></a>
        </div>
        <div>
            <i class="fa-solid fa-heart"></i>
@@ -29,7 +29,7 @@ function navbar() {
                <a href="">Create an Account</a>
            </div>
 
-       </div>
+        </div>
        <div>
            <p class="Zero">0</p>
            <i class="fa-solid fa-cart-shopping" id="cart_opan"></i>
@@ -56,11 +56,17 @@ function navbar() {
            <h2>Rs:</h2>
            <h2 id="total_price_in_nev"></h2>
        </div>
-   </div>
+    </div>
    <button>view cart</button>
    <button>checkout</button>
 
-</div>`;
+
+
+
+</div>`
 }
+
+
+  
 
 export default navbar;
