@@ -165,13 +165,11 @@
 }
 
 /* *****************Product*********** */
-
 .product_display {
     width: 100%;
     height: 60%;
     background-color: white;
 }
-
 .total_in {
     height: 8%;
     border: 1px solid #ddd;
@@ -208,7 +206,6 @@
     box-sizing: border-box;
     cursor: pointer;
 }
-
 .add_to_cart>button+button {
     background-color: #e5b95f;
     border: none;
@@ -226,8 +223,6 @@
     color: white;
     background-color: black;
 }
-
-/* ***********************search*************** */
 #search{
  color: #e5b95f;
 }
