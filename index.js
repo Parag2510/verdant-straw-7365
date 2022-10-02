@@ -51,6 +51,9 @@ const slider = () => {
 
 	img.src = images[i]
 	slideDiv.append(img)
+	slideDiv.addEventListener("click",()=>{
+		window.location.href="./The_Make.html"
+	})
 	i++
 
 	setInterval(() => {
