@@ -152,3 +152,13 @@ const closeit = () => {
 	let nav = document.getElementById("navbar")
 	nav.style.display = "block"
 }
+
+let topitems = document.getElementById("topItems")
+topitems.addEventListener("click",()=>{
+	window.location.href = "./The_Make.html"
+})
+
+let preBags = document.getElementById("preBags")
+preBags.addEventListener("click",()=>{
+	window.location.href = "./The_Make.html"
+})
