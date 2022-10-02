@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    background-color: rgb(254,254,254);
+}
+#box{
+    border: px solid red;
+    height:368px;
+    width:48%;
+  
+}
+#box >div{
+    border:px solid red
+}
+img{
+    width:100%
+}
+.wave{
+    border:1px solid red;
+    width:30%;
+    margin-left: 900px;
+    height:200px;
+    margin-bottom: 200px;
+    
+}
+#loader{
+    height:100%;
+    width:100%;
+    margin-left: 100px;
+}
+.wave{
+    font-size: 40px;
+    color:rgb(255, 196, 0);
+    -webkit-box-reflect:
+    below-20px
+    linear-gradient(transparent,rgba(0,0,0,0.2));
+}
+.wave span{
+    font-family: "Alfa Slab One",cursive;
+    display: inline-block;
+    animation:wave-anim 1s infinite;
+    animation-delay:calc(0.1s * var(--item));
+
+}
+@keyframes wave-anim{
+    0%,
+    40%,
+    100%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+}
