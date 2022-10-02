@@ -331,3 +331,7 @@
     letter-spacing: 2px;
     border-radius: 5px;
 }
+#navbar{
+    position: fixed;
+    top: 0;
+}
