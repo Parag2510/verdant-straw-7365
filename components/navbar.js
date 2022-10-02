@@ -1,5 +1,5 @@
 function navbar() {
-   return `<div id="Navbar">
+  return `<div id="Navbar">
 
    <div id="first">
    <a href="./The_Make.html"> <p id="parag">SUBSCRIBE</p></a>
@@ -60,11 +60,13 @@ function navbar() {
    <button>view cart</button>
    <button>checkout</button>
 
-</div>
 
-`
+
+
+</div>`
 }
 
 
   
+
 export default navbar;
