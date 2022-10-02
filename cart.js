@@ -34,7 +34,7 @@ footer_div.innerHTML = footer();
 document.getElementById("up_cart").addEventListener("click", returnhome);
 
 function returnhome() {
-  window.location.href = "index.html";
+  window.location.href = "The_Make.html";
 }
 
 document.getElementById("chout").addEventListener("click", ch_checkout);
@@ -67,11 +67,14 @@ const appendcart = (data) => {
     price.innerText = el.price;
 
     let qty = document.createElement("p");
-    qty.innerText = el.qun;
+    qty.innerHTML = el.qun;
+
     div.append(img, name, qty, price);
     // console.log(el.ime);
+    let totalamount = Number(qty.innerText * price.innerText);
+    console.log(Number(totalamount));
+    console.log(typeof totalamount);
+    document.getElementById("total_cart_price").innerText = totalamount;
   });
-
-  console.log("h1");
 };
 appendcart(data);
