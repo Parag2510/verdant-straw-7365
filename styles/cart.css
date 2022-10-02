@@ -102,8 +102,6 @@ body {
 #product_img {
   width: 100px;
   height: 100px;
-  display: flex;
-  justify-content: left;
 }
 #mycart {
   width: 80%;
@@ -133,7 +131,7 @@ body {
 
 #value_row {
   width: 200px;
-  /* background-color: aqua; */
+  justify-content: space-around;
   align-items: center;
 }
 

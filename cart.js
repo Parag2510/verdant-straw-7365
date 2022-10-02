@@ -61,12 +61,15 @@ const appendcart = (data) => {
     let img = document.createElement("img");
     img.id = "product_img";
     img.src = el.ime;
-
+    let name = document.createElement("p");
+    name.innerText = el.name;
     let price = document.createElement("p");
     price.innerText = el.price;
 
-    div.append(img, price);
-    console.log(el.ime);
+    let qty = document.createElement("p");
+    qty.innerText = el.qun;
+    div.append(img, name, qty, price);
+    // console.log(el.ime);
   });
 
   console.log("h1");
