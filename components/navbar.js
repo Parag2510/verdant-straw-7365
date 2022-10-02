@@ -2,11 +2,11 @@ function navbar() {
   return `<div id="Navbar">
 
    <div id="first">
-   <a href=""> <p style="color:#e5b95f ;">SUBSCRIBE</p></a>
+   <a href="./The_Make.html"> <p id="parag">SUBSCRIBE</p></a>
    </div>
 
    <div id="logo">
-      <a href=""> <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"
+      <a href="index.html"> <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"
        alt="Fab bag"></a>
    </div>
 
@@ -23,10 +23,10 @@ function navbar() {
            <i class="fa-solid fa-circle-user"></i>
 
            <div class="dropdown_menu">
-               <a href="">Languages: En</a>
-               <a href="">Checkout</a>
-               <a href="">Sign In</a>
-               <a href="">Create an Account</a>
+               <a href="index.html">Languages: En</a>
+               <a href="checkout.html"> Checkout </a>
+               <a href="./login.html">Sign In </a>
+               <a href="./creat.html">Create an Account</a>
            </div>
 
         </div>

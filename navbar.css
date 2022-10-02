@@ -28,6 +28,9 @@
     font-weight: bold;
     margin-top: 20px;
 }
+#parag{
+    color: #e5b95f;
+}
 #logo {
     height: 100%;
     width: 210px;
@@ -104,24 +107,25 @@
     cursor: pointer;
     transform: rotate(90deg);
 }
-
 /* *********************drop down menu **************************** */
 .dropdown_menu {
     position: absolute;
     background-color:white;
     margin-top: 10px;
-    left: 85%;
+    /* left: 20%; */
+    /* margin-left: 40%; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     display: none;
+    right: 50%;
 }
 .dropdown_menu a {
     color:black;
-    padding: 15px 15px;
-    margin-right: 30%;
+    padding: 15px 20px;
+    right: 90%;
     text-decoration: none;
-   border-bottom: 1px solid #ddd;
-   display: block;
+    border-bottom: 1px solid #ddd;
+    display: block;
 }
 .dropdown_menu a:hover {
     background-color:#e5b95f;
@@ -190,7 +194,6 @@
     cursor: pointer;
    
 }
-
 .add_to_cart>button {
     margin: 0;
     padding: 0;
@@ -251,11 +254,3 @@ box-shadow: 0px 0px 51px -36px rgba(0,0,0,1);
 p{
 text-align: center;
 }
-
-
-
-
-
-
-
-
