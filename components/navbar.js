@@ -57,8 +57,8 @@ function navbar() {
            <h2 id="total_price_in_nev"></h2>
        </div>
     </div>
-   <button>view cart</button>
-   <button>checkout</button>
+    <button><a href="cart.html">view cart</a></button>
+    <button><a href="checkout.html">checkout</a></button>
 
 
 
