@@ -99,7 +99,10 @@ body {
   display: flex;
   /* border: 1px solid black; */
 }
-
+#product_img {
+  width: 100px;
+  height: 100px;
+}
 #mycart {
   width: 80%;
   margin: auto;
@@ -128,13 +131,8 @@ body {
 
 #value_row {
   width: 200px;
-  /* background-color: aqua; */
+  justify-content: space-around;
   align-items: center;
-}
-
-input {
-  width: 30px;
-  height: 30px;
 }
 
 h3 {

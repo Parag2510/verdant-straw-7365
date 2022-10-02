@@ -2,7 +2,7 @@ function navbar() {
   return `<div id="Navbar">
 
    <div id="first">
-   <a href="./The_Make.html"> <p id="parag">SUBSCRIBE</p></a>
+   <a href="The_Make.html"><p id="parag">SUBSCRIBE</p></a>
    </div>
 
    <div id="logo">
@@ -25,12 +25,12 @@ function navbar() {
            <div class="dropdown_menu">
                <a href="index.html">Languages: En</a>
                <a href="checkout.html"> Checkout </a>
-               <a href="./login.html">Sign In </a>
-               <a href="./creat.html">Create an Account</a>
+               <a href="login.html">Sign In </a>
+               <a href="creat.html">Create an Account</a>
            </div>
 
         </div>
-       <div>
+       <div id="parag1">
            <p class="Zero">0</p>
            <i class="fa-solid fa-cart-shopping" id="cart_opan"></i>
        </div>

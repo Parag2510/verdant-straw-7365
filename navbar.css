@@ -52,18 +52,24 @@
     height: 50%;
     width: 50%;
 }
-.Zero {
+#parag1{
+    margin-top: -20px;
+}
+#parag1 .Zero {
     padding: 3px 3px;
     font-weight: 700;
     color: black;
     border-radius: 20px;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #e5b95f;
     margin-left: 6px;
-    margin-top: -15px;
+    margin-bottom: -0px;
+    /* margin-top: -40px; */
     cursor: pointer;
-    margin-top: -37px;
+}
+#parag1 .Zero p{
+    margin-top: 10px;
 }
 .add_to_cart {
     position: fixed;
@@ -117,7 +123,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     display: none;
-    right: 50%;
+    right: 2%;
 }
 .dropdown_menu a {
     color:black;
@@ -190,8 +196,9 @@
     color: #e5b95f;
 }
 
-#cart_opan {
+#Parag>#cart_opan{
     cursor: pointer;
+    margin-top: -20px;
    
 }
 .add_to_cart>button {
