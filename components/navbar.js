@@ -26,7 +26,7 @@ function navbar() {
                <a href="index.html">Languages: En</a>
                <a href="checkout.html"> Checkout </a>
                <a href="login.html">Sign In </a>
-               <a href="creat.html">Create an Account</a>
+               <a href="./sign up/creat.html">Create an Account</a>
            </div>
 
         </div>
