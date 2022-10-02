@@ -56,3 +56,17 @@ function information(event){
 
     
 }
+
+
+import  navbar  from "./components/navbar.js";
+
+let nav = document.getElementById("navbar")
+
+nav.innerHTML = navbar()
+
+import footer from "./Footer/FOOTER.js";
+
+let foot = document.getElementById("footer")
+
+foot.innerHTML = footer()                         
+console.log(footer);

@@ -148,3 +148,7 @@
     background-color: transparent whitesmoke;
  }
 
+#navbar{
+    position: fixed;
+    top: 0;
+}
