@@ -1,4 +1,12 @@
 
+import navbar from "./components/navbar.js";
+let nav = document.getElementById("navbar")
+nav.innerHTML = navbar()
+
+import footer from "./Footer/FOOTER.js";
+let foot = document.getElementById("footer")
+foot.innerHTML = footer()
+
 let i = 0;
 let j = 0;
 
@@ -62,11 +70,14 @@ slider()
 
 const testShow = () => {
 	let slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8]
+
 	let monial = document.getElementById("monial")
 	monial.innerHTML = null
+
 	let div = document.createElement("div")
 	let h4 = document.createElement("h4")
 	h4.innerText = slides[j]
+
 	div.append(h4)
 	monial.append(div)
 	j++
@@ -86,15 +97,58 @@ const testShow = () => {
 
 testShow()
 
-import  navbar  from "./components/navbar.js";
+const trenditems = (data) => {
+	let divitems = document.getElementById("trenditems")
+	divitems.innerHTML = null
 
-let nav = document.getElementById("navbar")
+	data.forEach((ele) => {
+		let div = document.createElement("div")
+		let img = document.createElement("img")
+		img.src = ele.img
+		let pic = ele.img
 
-nav.innerHTML = navbar()
+		img.addEventListener("click", ()=>{
+			showthepic(ele)
+		})
 
-import footer from "./Footer/FOOTER.js";
+		div.append(img)
+		divitems.append(div)
+	})
+}
 
-let foot = document.getElementById("footer")
+trenditems(trendingItems)
 
-foot.innerHTML = footer()                         
-console.log(footer);
+const showthepic = (ele) => {
+	let parent = document.getElementById("z")
+	let pic = document.getElementById("pic")
+	pic.innerHTML = null
+	let nav = document.getElementById("navbar")
+	nav.style.display = "none"
+	pic.style.display = "block"
+	parent.style.display = "flex"
+	let image = document.createElement("img")
+	let text = document.getElementById("text")
+	text.innerHTML = null
+	let p = document.createElement("p")
+	p.textContent = `Let’s take a trip down memory lane 💕
+	You guys gave us a lot of love throughout the years…but these bags have a fan following of their own!
+	
+	On the occasion of Fab Bag’s 10th Anniversary, here’s a rundown of our TOP 10 bags that were a fan-favourite. How many of these Fab Bags do you own? Tell us in the comments.
+	
+	#September #HelloSeptember #FabBag #BeautyBag #BeautySubscription #BeautyDiscovery #BeautyAddict #BeautyLover #BeautyBox #Beauty #Makeup #MakeupSubscription #MakeupJunkie #BeautyEssentials #BeautyFaves #BestOfBeauty #Skincare #BudgetBeauty #GrandFinale #TheFinale
+	SEPTEMBER 25 • View on Instagram`
+
+	image.src = ele.img
+	pic.append(image)
+	text.append(p)
+	parent.addEventListener("click", () => {
+		closeit()
+	})
+}
+
+const closeit = () => {
+	let parent = document.getElementById("z")
+	z.style.display = "none"
+	let nav = document.getElementById("navbar")
+	nav.style.display = "block"
+}
