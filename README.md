@@ -7,11 +7,12 @@ Masai Construct week collaborative  Project
 This project was to clone fabbag websie within 5 day. Fagbag is cosmetics based online service provider company.
 ## Deploy Link -> 
 ## Collaborators (Masai school's Student)
- - [Parag Sonje](https://github.com/chandan0531)
- - ](https://github.com/komal-tiwari-dev)
- - [Avinash Kumarr](https://github.com/avinash-here)
-- [Rajendra Yadav](https://github.com/R-Yaduvanshi)
-- [Ashutosh Dash](https://github.com/ashutoshdash9878)
+ - [Parag Sonje](https://github.com/)
+ - [ Shiv Pratap Singh Yadav](https://github.com/)
+ - [Vivek Kumar  ](https://github.com/)
+ - [Sohel Syed  ](https://github.com/)
+ - [Kapil Maywade ](https://github.com/)
+
 
 ## FAB-BAG-Clone clone use for below functions
 - User can Login and Signup.
